@@ -6,10 +6,9 @@
 
 \usepackage{graphicx}
 
-
-\newcommand{\ies}{\def \@ies}
-\newcommand{\curso}{\def \@curso}
-\newcommand{\campus}{\def \@campus}
+\newcommand{\ies}{\def\@ies}
+\newcommand{\curso}{\def\@curso}
+\newcommand{\campus}{\def\@campus}
 \newcommand{\imprimiries}{\@ies}
 \newcommand{\imprimircurso}{\@curso}
 \newcommand{\imprimircampus}{\@campus}
@@ -34,28 +33,27 @@
 \renewcommand{\imprimircapa}{%
   \begin{capa}%
     \center
-%\begin{figure}[H]
- % \centering
-  %\includegraphics[scale=0.5]{ufc-brasao.pdf}
-  %\end{figure}
-    %{\bfseries\Large\imprimirinstituicao\vspace*{3.5cm}}
+
+    \begin{figure}[H]
+        \centering
+	\includegraphics[scale=0.5]{figuras/ufc-brasao.pdf}
+    \end{figure}
+   
     {\bfseries\Large\imprimiries}  \\
     \vspace*{0.2cm}
     {\bfseries\Large\imprimircampus} \\
     \vspace*{0.2cm}
 	{\bfseries\Large\imprimircurso}
 
-    \vspace*{3.5cm}
+    \vspace*{3cm}
 
     {\bfseries\Large\imprimirtitulo}
     
-    \vspace*{3.5cm}
+    \vspace*{2.5cm}
     
     {\bfseries\Large{Projeto de Pesquisa}}
     
-    \vspace*{3.5cm}
-
-    %{\bfseries\Large\imprimirautor\vspace*{3.5cm}}
+    \vspace*{2.5cm}
  
     \abntex@ifnotempty{\imprimirorientador}{%
       \hspace{.45\textwidth}
