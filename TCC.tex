@@ -11,8 +11,11 @@
 \titulo{TÍTULO TÍTULO TÍTULO TÍTULO  TÍTULO TÍTULO TÍTULO TÍTULO TÍTULO TÍTULO TÍTULO TÍTULO TÍTULO TÍTULO }
 \autor{Nome Autor}
 \local{Quixadá}
-\data{Abril, 2016}
-\orientador{Nome Orientador}
+
+% Mostrar somente MES e ANO. Caso queria data completa basta colocar \today
+\data{\ifcase \month\or Janeiro\or Fevereiro\or Março\or Abril\or Maio\or Junho\or Julho\or Agosto\or Setembro\or Outubro\or Novembro\or Dezembro\fi, \number\year}
+
+\orientador{Prof. Dr. Nome Orientador}
 \coorientador{Nome Coorientador}
 
 % Escolher curso: Redes de Computadores (rc), Eng.Software (es), Ciências da Computação (cc) ou Sist.Informação (si)
@@ -31,6 +34,12 @@
 
 
 \begin{document}
+
+\begin{figure}
+    \centering
+	\includegraphics[scale=0.4]{ufc-brasao.pdf} % altere o atributo scale para o tamanho d
+\end{figure}
+
 \frenchspacing 
 
 %Formatação de título de seções
