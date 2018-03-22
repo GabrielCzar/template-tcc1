@@ -9,10 +9,11 @@ Template criado para facilitar a elaboração do TCC em latex para a Universidad
 * Anexos: editaveis/anexos.tex
 * Preambulo: fixos/pacoteseclass.tex
 * Estilo: ufc-abntex2.sty
+* Components: componentes/*.tex
 * Referências: bibtex/referencias.bib
 
 
-## Arquivos TCC 1
+## Componentes do TCC 1
 
 - [x] introducao.tex
 - [x] trabalhos_relacionados.tex
