@@ -20,9 +20,9 @@
 
 % Escolher curso: Redes de Computadores (rc), Eng.Software (es), Ciências da Computação (cc) ou Sist.Informação (si)
 %\include{fixos/instituicao/rc}
-%\include{fixos+/instituicao/si}
-\include{fixos/instituicao/es}
+%\include{fixos/instituicao/es}
 %\include{fixos/instituicao/cc} 
+\include{fixos/insituicao/si}
 
 %%criar um novo estilo de cabeçalhos e rodapés
 \makepagestyle{header_style}
@@ -37,7 +37,7 @@
 
 \begin{figure}
     \centering
-	\includegraphics[scale=0.4]{ufc-brasao.pdf} % altere o atributo scale para o tamanho d
+	\includegraphics[scale=0.3]{figuras/ufc-brasao.pdf} % altere o atributo scale para ajustar o tamanho
 \end{figure}
 
 \frenchspacing 
@@ -122,17 +122,17 @@
 \pagestyle{header_style}
 
 %uso do input pois o include dá quebra de página no final
-\input{introducao}
+\input{components/introducao}
 
-\input{trabalhos_relacionados}
+\input{components/trabalhos_relacionados}
 
-\input{objetivos}
+\input{components/objetivos}
 
-\input{fundamentacao_teorica}
+\input{components/fundamentacao_teorica}
 
-\input{metodologia}
+\input{components/metodologia}
 
-\input{resultados_preliminares}
+\input{components/resultados_preliminares}
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
