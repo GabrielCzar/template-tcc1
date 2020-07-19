@@ -38,7 +38,3 @@ Template criado para facilitar a elaboração do TCC em latex para a Universidad
 
 ```
 
-## Meta
-
-Alexsandro Oliveira – sandrooliveira@gmail.com 
-
